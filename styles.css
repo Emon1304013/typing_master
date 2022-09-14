@@ -161,7 +161,6 @@ button {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-items: center;
   padding: 20px 30px;
   color: white;
   border-radius: 15px;
@@ -198,8 +197,7 @@ button {
     flex-direction: column;
   }
   #histories {
-    display: grid;
     grid-template-columns: 1fr;
-    row-gap: 20px
+    row-gap: 20px;
   }
 }
