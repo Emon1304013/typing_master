@@ -18,6 +18,8 @@ body {
 
 #question {
   height: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
