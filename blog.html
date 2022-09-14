@@ -31,7 +31,7 @@
                         </tr>
                     </thead>
 
-                    <tbody class="text-center">
+                    <tbody class="">
                         <tr>
                             <td>
                                 <p>1. Data in sessionStorage is cleared when the page session ends</p>
@@ -90,7 +90,7 @@
                 <li>JavaScript is a single-threaded programming language. This means that JavaScript can do only one thing at a single point in time.<br><p class="ms-4">The JavaScript engine executes a script from the top of the file and works its way down. It creates the execution contexts, pushes, and pops functions onto and off the call stack in the execution phase</p></li>
                 
                 <li>the JavaScript engine can do only one thing at a time. However, it’s more precise to say that the JavaScript runtime can do one thing at a time.The web browser also has other components, not just the JavaScript engine</li>
-                <div class="image text-center my-4"><img src="javascript-event-loop.png" alt=""></div>
+                <div class="image text-center my-4"><img src="images/javascript-event-loop.png" alt=""></div>
 
                 <li>The event loop is a constantly running process that monitors both the callback queue and the call stack.
 
@@ -106,7 +106,43 @@
                 <li>Different ways to get Undefined in JS</li>
             </h5>
             <p class="px-5">
-            
+                <h6>There are 8 ways we get undefined in Javascript</h6>
+                <ol>
+                    <li class="mb-4">
+                        <p>If variable is used without being initialized, then it will return undefined.</p>
+                        <img src="images/undefined1.png" alt="">
+                    </li>
+                    <li class="mb-4">
+                        <p>Storing function result into a variable without returning anything from function</p>
+                        <img src="images/undefined2.png" alt="">
+
+                    </li>
+
+                    <li class="mb-4">
+                        <p>If function parameter not passed properly</p>
+                        <img src="images/undefined3.png" alt="">
+                    </li>
+                    <li class="mb-4">
+                        <p>If Function return is not declared explicitly</p>
+                        <img src="images/undefined4.png" alt="">
+                    </li>
+                    <li class="mb-4">
+                        <p>Trying to Access an object property that is not present in the object</p>
+                        <img src="images/undefined5.png" alt="">
+                    </li>
+                    <li class="mb-4"><p>Array index out of bound</p>
+                        <img src="images/undefined6.png" alt="">
+                    </li>
+                    <li class="mb-4">
+                        <p>Deleting array element explicitly will return undefined. Also this will create a hole in the array</p>
+                        <img src="images/undefined7.png" alt="">
+                    </li>
+
+                    <li>
+                        <p>Setting variable vaule to undefined. Instead use null.</p>
+                    </li>
+                    
+                </ol>
             </p>
 
         </div>
